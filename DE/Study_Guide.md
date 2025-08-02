@@ -1,4 +1,7 @@
+
 # 📘 Digital Electronics Study Guide
+
+---
 
 ## ✳️ Unit 1: Fundamentals of Digital Electronics
 
@@ -158,10 +161,10 @@ Be able to write simple testbenches to verify VHDL code.
 Perform simulation using appropriate VHDL tools.
 
 ---
-## 📺 Digital Electronics — The Secret Language of Your Gadgets
+## 🎥 Watch the Video
 
-[▶️ Click here to watch the video](../Media/Digital_Electronics__The_Secret_Language_of_Your_Gadgets.mp4)
+[▶️ Digital Electronics — The Secret Language of Your Gadgets](https://github.com/user-attachments/assets/a7f1c30e-eeb8-4ce8-819a-f7d0d41d3ef9)
 
-> 🎓 This video offers a visual breakdown of key digital concepts discussed in this guide — ideal for quick revisions or first-time understanding.
+> 🎓 A visual breakdown of key digital concepts discussed in this guide — ideal for quick revisions or first-time understanding.
 
 > ⚠️ Note: Practice problems and circuit design exercises are essential to reinforce theoretical understanding.
