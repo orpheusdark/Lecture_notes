@@ -160,7 +160,7 @@ Perform simulation using appropriate VHDL tools.
 ---
 ## 📺 Digital Electronics — The Secret Language of Your Gadgets
 
-[▶️ Click here to watch the video](./media/Digital_Electronics__The_Secret_Language_of_Your_Gadgets.mp4)
+[▶️ Click here to watch the video](../media/Digital_Electronics__The_Secret_Language_of_Your_Gadgets.mp4)
 
 > 🎓 This video offers a visual breakdown of key digital concepts discussed in this guide — ideal for quick revisions or first-time understanding.
 
