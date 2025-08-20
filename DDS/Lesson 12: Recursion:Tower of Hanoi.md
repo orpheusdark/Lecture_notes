@@ -1,8 +1,7 @@
-## 📘 Lesson 12: Recursion – The Tower of Hanoi
+# 📘 Lesson 12: **Recursion – The Tower of Hanoi**
 
----
 
-### 🎯 Objectives
+## 🎯 Objectives
 
 * 🗼 Understand the classic **Tower of Hanoi** puzzle and its rules.
 * 🔁 Recognize why the problem has a **naturally recursive structure**.
@@ -12,13 +11,14 @@
 
 ---
 
-### 🗼 What is the Tower of Hanoi?
+## 🗼 What is the Tower of Hanoi?
 
-The **Tower of Hanoi** is a mathematical puzzle consisting of three rods and a number of disks of different sizes. The puzzle starts with the disks stacked in ascending size on one rod (the **source**), with the smallest disk at the top.
+The **Tower of Hanoi** is a mathematical puzzle consisting of **three rods** and a number of **disks of different sizes**.
 
-🎯 **Goal**: Move the entire stack to another rod (the **destination**) using the third rod as an **auxiliary** (temporary placeholder).
+* The puzzle starts with the disks stacked in ascending size on one rod (the **source**), with the smallest disk at the top.
+* 🎯 **Goal:** Move the entire stack to another rod (the **destination**) using the third rod as an **auxiliary** (temporary placeholder).
 
-#### 📏 Rules:
+### 📏 Rules
 
 * 1️⃣ Only **one disk** can be moved at a time.
 * 🔝 A move involves taking the **upper disk** from a stack and placing it on top of another stack or an empty rod.
@@ -26,54 +26,56 @@ The **Tower of Hanoi** is a mathematical puzzle consisting of three rods and a n
 
 ---
 
-### 🧠 The Recursive Strategy
+## 🧠 The Recursive Strategy
 
-The Tower of Hanoi problem is a textbook example of recursion. The strategy to move `n` disks from rod `A` (source) to rod `C` (destination) using rod `B` (auxiliary) is:
+The Tower of Hanoi problem is a **textbook example of recursion**.
+To move `n` disks from rod `A` (source) to rod `C` (destination) using rod `B` (auxiliary):
 
-1. 🔁 Move `n-1` disks from `A` to `B` using `C`.
-2. ➡️ Move the `nth` (largest) disk from `A` to `C`.
-3. 🔁 Move `n-1` disks from `B` to `C` using `A`.
+1. 🔁 Move `n-1` disks from `A` → `B` using `C`.
+2. ➡️ Move the `nth` (largest) disk from `A` → `C`.
+3. 🔁 Move `n-1` disks from `B` → `C` using `A`.
 
-This continues until the **base case**: when `n == 1`, make a simple move directly from source to destination.
-
----
-
-### 🧮 Walkthrough: n = 3 Disks (A → C)
-
-1. Move 2 disks from A to B:
-
-   * Move disk 1 from A to C
-   * Move disk 2 from A to B
-   * Move disk 1 from C to B
-
-2. Move 1 disk from A to C:
-
-   * Move disk 3 from A to C
-
-3. Move 2 disks from B to C:
-
-   * Move disk 1 from B to A
-   * Move disk 2 from B to C
-   * Move disk 1 from A to C
-
-✅ Now all disks are on rod C in correct order.
+📌 **Base Case:**
+If `n == 1`, move the disk directly from source to destination.
 
 ---
 
-### 🔢 Number of Moves
+## 🧮 Walkthrough Example (n = 3 Disks: A → C)
 
-The minimum number of moves required for `n` disks:
+1. Move 2 disks from A → B:
 
-📐 Formula: `2^n - 1`
+   * Move disk 1 from A → C
+   * Move disk 2 from A → B
+   * Move disk 1 from C → B
 
-* For 3 disks: `2³ - 1 = 7 moves`
-* For 4 disks: `2⁴ - 1 = 15 moves`
+2. Move 1 disk from A → C:
+
+   * Move disk 3 from A → C
+
+3. Move 2 disks from B → C:
+
+   * Move disk 1 from B → A
+   * Move disk 2 from B → C
+   * Move disk 1 from A → C
+
+✅ Now all disks are stacked on rod **C** in correct order.
 
 ---
 
-### ✅ Code Implementations
+## 🔢 Number of Moves
 
-#### 📌 C Implementation
+The **minimum number of moves** required for `n` disks is:
+
+📐 **Formula:** `2^n - 1`
+
+* For 3 disks → `2³ - 1 = 7 moves`
+* For 4 disks → `2⁴ - 1 = 15 moves`
+
+---
+
+## ✅ Code Implementations
+
+### 📌 C Implementation
 
 ```c
 #include <stdio.h>
@@ -96,14 +98,14 @@ int main() {
 }
 ```
 
-#### 🔍 Explanation:
+🔍 **Explanation:**
 
-* 🧱 Base case: `n == 1`
-* 🪜 Recursive calls: move `n-1` disks to auxiliary, move largest to destination, then move `n-1` to destination.
+* 🧱 **Base case:** `n == 1` → move directly.
+* 🪜 **Recursive steps:** Move `n-1` disks → move largest → move `n-1` disks again.
 
 ---
 
-#### 🐍 Python Implementation
+### 🐍 Python Implementation
 
 ```python
 def tower_of_hanoi(n, from_rod, to_rod, aux_rod):
@@ -122,7 +124,7 @@ tower_of_hanoi(num_disks, 'A', 'C', 'B')
 
 ---
 
-#### ☕ Java Implementation
+### ☕ Java Implementation
 
 ```java
 public class TowerOfHanoi {
@@ -147,7 +149,14 @@ public class TowerOfHanoi {
 
 ---
 
-📌 **Key Takeaway**:
-Tower of Hanoi elegantly demonstrates how **complex recursive problems** can be broken into **smaller sub-problems**, solved in a structured, layered manner.
+## 📌 Key Takeaway
 
-⏭️ **Next Up**: Lesson 13 — Recursion with Backtracking (e.g., N-Queens, Sudoku Solver)
+The **Tower of Hanoi** elegantly demonstrates how:
+
+* 🔁 **Recursion breaks a complex problem** into smaller sub-problems.
+* 🧩 Each step is solved systematically until the **base case**.
+* 📚 It’s a classic example of **divide and conquer** in action.
+
+---
+
+## ⏭️ Next Up: **Lesson 13 – Recursion with Backtracking (N-Queens, Sudoku Solver)**
