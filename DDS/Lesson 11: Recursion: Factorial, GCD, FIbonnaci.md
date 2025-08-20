@@ -1,8 +1,7 @@
-## 📘 Lesson 11: Recursion
+# 📘 Lesson 11: **Recursion**
 
----
 
-### 🎯 Objectives
+## 🎯 Objectives
 
 * 🧩 Understand the fundamental concept of **Recursion**.
 * 🔍 Identify the **Base Case** and **Recursive Case** in a recursive function.
@@ -12,35 +11,36 @@
 
 ---
 
-### 🧠 What is Recursion?
+## 🧠 What is Recursion?
 
-Recursion is a powerful and elegant programming strategy where a function calls **itself** to solve smaller instances of the same problem. This continues until it hits a simple scenario known as the **base case**, after which it builds the final solution by resolving each call step-by-step.
+**Recursion** is a programming technique where a function calls **itself** to solve smaller instances of the same problem.
+This continues until it hits the **base case** (simple scenario), after which the solution is built step by step.
 
-#### 🔑 Key Concepts:
+### 🔑 Key Concepts
 
-* **Base Case**: The condition to stop recursion. Avoids infinite loops.
-* **Recursive Case**: The part where the function calls itself with a reduced/simplified input.
+* 🛑 **Base Case:** The condition to stop recursion (prevents infinite calls).
+* 🔄 **Recursive Case:** The part where the function calls itself with reduced input.
 
-#### ⏰ When to Use Recursion
+### ⏰ When to Use Recursion
 
-* Problems naturally defined recursively (e.g., factorial, Fibonacci)
-* Recursive data structures (e.g., trees, linked lists)
-* Divide-and-conquer algorithms (e.g., merge sort, quick sort)
+* ✅ Problems **naturally recursive** (e.g., factorial, Fibonacci).
+* ✅ Recursive data structures (trees, linked lists).
+* ✅ Divide-and-Conquer algorithms (merge sort, quick sort).
 
 ---
 
-### 1️⃣ Factorial
+## 1️⃣ Factorial
 
-**Definition**:
+### 📌 Definition
 
 * `n! = n * (n-1) * (n-2) * ... * 1`
 * Special Case: `0! = 1`
 
-**Recursive Formula**:
+### 🔄 Recursive Formula
 
 * `n! = n * (n - 1)!`
 
-#### 🔄 Recursive Flow:
+### 🔁 Recursive Flow Example
 
 ```plaintext
 factorial(5)
@@ -51,11 +51,13 @@ factorial(5)
             -> 1 (Base Case)
 ```
 
-Result: `5 * 4 * 3 * 2 * 1 = 120`
+✅ Result: `5 * 4 * 3 * 2 * 1 = 120`
 
-#### ✅ Python Implementations
+---
 
-**Iterative**:
+### ✅ Python Implementations
+
+**Iterative Approach:**
 
 ```python
 def factorial_iterative(n):
@@ -69,7 +71,7 @@ def factorial_iterative(n):
 print(f"Iterative: {factorial_iterative(5)}")  # Output: 120
 ```
 
-**Recursive**:
+**Recursive Approach:**
 
 ```python
 def factorial_recursive(n):
@@ -83,19 +85,19 @@ print(f"Recursive: {factorial_recursive(5)}")  # Output: 120
 
 ---
 
-### 2️⃣ Greatest Common Divisor (GCD)
+## 2️⃣ Greatest Common Divisor (GCD)
 
-**Definition**:
+### 📌 Definition
 
 * Largest number that divides two numbers without leaving a remainder.
-* Uses **Euclidean Algorithm**.
+* Uses the **Euclidean Algorithm**.
 
-**Recursive Formula**:
+### 🔄 Recursive Formula
 
 * `gcd(a, b) = gcd(b, a % b)`
-* Base Case: `gcd(a, 0) = a`
+* **Base Case:** `gcd(a, 0) = a`
 
-#### 🔄 Recursive Flow:
+### 🔁 Recursive Flow Example
 
 ```plaintext
 gcd(48, 18)
@@ -105,7 +107,9 @@ gcd(48, 18)
 -> 6 (Base Case)
 ```
 
-#### ✅ C++ Implementation
+---
+
+### ✅ C++ Implementation
 
 ```cpp
 #include <iostream>
@@ -123,19 +127,21 @@ int main() {
 
 ---
 
-### 3️⃣ Fibonacci Sequence
+## 3️⃣ Fibonacci Sequence
 
-**Definition**:
+### 📌 Definition
 
-* A series where each term is the sum of the two preceding ones.
-* Starting from: `0, 1, 1, 2, 3, 5, 8, 13, ...`
+* A series where each term = sum of the two preceding ones.
+* Sequence: `0, 1, 1, 2, 3, 5, 8, 13, ...`
 
-**Recursive Formula**:
+### 🔄 Recursive Formula
 
 * `F(n) = F(n-1) + F(n-2)`
-* Base Cases: `F(0) = 0`, `F(1) = 1`
+* **Base Cases:** `F(0) = 0`, `F(1) = 1`
 
-#### ✅ Java Iterative Implementation
+---
+
+### ✅ Java Iterative Implementation
 
 ```java
 import java.util.Scanner;
@@ -164,33 +170,33 @@ public class Fibonacci {
 
 ---
 
-### 🧾 Summary
+## 🧾 Summary
 
-* 🧠 Recursion involves solving a problem by solving smaller instances of the same problem.
-* 🚫 Base case prevents infinite recursion.
-* 🔁 Recursive case drives the function toward the base case.
-* 🔍 Factorial, GCD, and Fibonacci are classic examples.
-* ⚖️ Recursive vs. Iterative: recursion is cleaner but can be less efficient if not optimized.
-
----
-
-### 📘 Viva Q\&A
-
-**Q: Why is recursion powerful?**
-A: Because it allows us to express complex problems in a simpler, elegant manner using self-similarity.
-
-**Q: When should you avoid recursion?**
-A: When performance or stack memory is a concern, especially for deep or large inputs. Use iteration instead.
-
-**Q: What if recursion has no base case?**
-A: It will lead to infinite recursion and eventually cause a stack overflow.
-
-**Q: How is GCD computed recursively?**
-A: Using the Euclidean Algorithm: `gcd(a, b) = gcd(b, a % b)` until `b = 0`.
-
-**Q: What's the time complexity of recursive Fibonacci?**
-A: Exponential time `O(2^n)` without memoization.
+* 🧠 Recursion solves problems by breaking them into **smaller sub-problems**.
+* 🚫 **Base case** prevents infinite recursion.
+* 🔁 **Recursive case** pushes toward the base case.
+* 🔍 **Factorial, GCD, Fibonacci** are classic recursion examples.
+* ⚖️ Recursive vs. Iterative: recursion = cleaner code, iteration = more efficient.
 
 ---
 
-⏭️ **Next Up**: Lesson 12 — Recursion with Backtracking (e.g., N-Queens, Sudoku Solver)
+## 📘 Viva Q\&A
+
+❓ **Why is recursion powerful?**
+👉 Because it allows us to express **complex problems** in a simpler, self-similar manner.
+
+❓ **When should you avoid recursion?**
+👉 When performance or stack memory is critical (deep inputs). Use iteration instead.
+
+❓ **What if recursion has no base case?**
+👉 Infinite recursion → leads to **stack overflow**.
+
+❓ **How is GCD computed recursively?**
+👉 Using **Euclidean Algorithm**: `gcd(a, b) = gcd(b, a % b)` until `b = 0`.
+
+❓ **What’s the time complexity of recursive Fibonacci?**
+👉 Exponential `O(2^n)` (unless optimized with memoization).
+
+---
+
+## ⏭️ Next Up: **Lesson 12 – Recursion with Backtracking (N-Queens, Sudoku Solver)**
