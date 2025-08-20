@@ -1,66 +1,69 @@
-📘 **Lesson 13: Queue**
+# 📘 Lesson 13: **Queue**
+
+
+
+## 🎯 Objectives
+
+* ✅ Understand the **Queue** data structure and its **FIFO (First-In, First-Out)** principle.
+* ✅ Learn the **array representation** of a simple **linear queue**.
+* ✅ Implement core **queue operations**: Enqueue, Dequeue, and Peek.
+* ✅ Analyze limitations of a **Linear Queue** and recognize the need for a **Circular Queue**.
+* ✅ Implement a **Circular Queue** to efficiently manage memory.
 
 ---
 
-🎯 **Objectives**
+## 🚶‍♂️ What is a Queue?
 
-* Understand the **Queue** data structure and its **FIFO (First-In, First-Out)** principle.
-* Learn the **array representation** of a simple **linear queue**.
-* Implement core **queue operations**: Enqueue, Dequeue, and Peek.
-* Analyze limitations of a linear queue and recognize the need for a **Circular Queue**.
-* Implement a **Circular Queue** to efficiently manage memory.
+A **Queue** is a fundamental linear data structure that follows the **FIFO** principle:
+👉 *The first element added is the first to be removed.*
 
----
+### 📌 Real-Life Examples
 
-🚶‍♂️ **What is a Queue?**
-A **Queue** is a fundamental linear data structure that follows the **FIFO** principle: the first element added is the first to be removed.
-
-📌 **Real-Life Examples:**
-
-* A line of people waiting at a ticket counter.
-* A print queue managing documents.
-* Tasks in a CPU scheduler.
+* 👥 A line of people waiting at a ticket counter.
+* 🖨️ A print queue managing documents.
+* ⚙️ Tasks in a CPU scheduler.
 
 ---
 
-🧾 **Basic Queue Terminology**
+## 🧾 Basic Queue Terminology
 
-* **Front (or Head):** Points to the first element; where elements are removed.
-* **Rear (or Tail):** Points to the last element; where elements are added.
-* **Enqueue:** Add an element to the rear.
-* **Dequeue:** Remove an element from the front.
+* 🎯 **Front (or Head):** Points to the first element; where elements are removed.
+* 🎯 **Rear (or Tail):** Points to the last element; where elements are added.
+* ➕ **Enqueue:** Add an element to the rear.
+* ➖ **Dequeue:** Remove an element from the front.
 
 ---
 
-🔢 **Array Representation of a Linear Queue**
+## 🔢 Array Representation of a Linear Queue
+
 A simple queue uses an array with two pointers: `front` and `rear`.
 
 📍 **Initialization:** `front = -1`, `rear = -1`
 
 📌 **Conditions:**
 
-* **Queue is Empty:** `front == -1` or `front > rear`
-* **Queue is Full:** `rear == MAX_SIZE - 1`
+* ❌ **Queue is Empty:** `front == -1` or `front > rear`
+* 🚫 **Queue is Full:** `rear == MAX_SIZE - 1`
 
 ---
 
-✅ **Pros of Queues**
+## ✅ Pros of Queues
 
 * 🧾 **Fair Ordering (FIFO):** Items are processed in order.
 * ⚡ **Efficient Operations:** Enqueue and Dequeue are O(1).
 * 🧠 **Simple Logic:** Easy to understand.
 * 🌍 **Widely Used:** In buffering, scheduling, etc.
 
-❌ **Cons of a Simple Linear Queue**
+## ❌ Cons of a Simple Linear Queue
 
 * 🔍 **Limited Access:** Only front and rear accessible; searching is O(n).
 * 🧱 **Wasted Space:** After dequeuing, unused space cannot be reclaimed.
 
 ---
 
-⚙️ **Operations of a Linear Queue (in C)**
+## ⚙️ Operations of a Linear Queue (in C)
 
-1️⃣ **Enqueue (Insert)**
+### 1️⃣ Enqueue (Insert)
 
 ```c
 void enqueue(int value) {
@@ -74,7 +77,7 @@ void enqueue(int value) {
 }
 ```
 
-2️⃣ **Dequeue (Remove)**
+### 2️⃣ Dequeue (Remove)
 
 ```c
 void dequeue() {
@@ -86,7 +89,7 @@ void dequeue() {
 }
 ```
 
-3️⃣ **Peek (Front Element)**
+### 3️⃣ Peek (Front Element)
 
 ```c
 int peek() {
@@ -101,30 +104,34 @@ int peek() {
 
 ---
 
-🔄 **Circular Queue – The Efficient Upgrade**
+## 🔄 Circular Queue – The Efficient Upgrade
+
 A **Circular Queue** connects the rear of the array back to the front, forming a logical circle and solving memory waste.
 
 💡 **Why Circular?**
-In a linear queue, front moves forward on each dequeue. Even if space at the front is free, new elements can't be added once `rear` hits the end. Circular queues reuse this space.
+
+* In a linear queue, `front` moves forward on each dequeue.
+* Even if space at the front is free, new elements **cannot** be added once `rear` hits the end.
+* Circular queues **reuse this space efficiently**.
 
 ---
 
-📊 **Array Implementation of a Circular Queue**
+## 📊 Array Implementation of a Circular Queue
 
 * Uses modulo `%` to wrap indices around.
-* **Increment Rear:** `rear = (rear + 1) % SIZE`
-* **Increment Front:** `front = (front + 1) % SIZE`
+* 🔹 **Increment Rear:** `rear = (rear + 1) % SIZE`
+* 🔹 **Increment Front:** `front = (front + 1) % SIZE`
 
 📌 **Conditions:**
 
-* **Queue is Empty:** `front == -1`
-* **Queue is Full:** `(rear + 1) % SIZE == front`
+* ❌ **Queue is Empty:** `front == -1`
+* 🚫 **Queue is Full:** `(rear + 1) % SIZE == front`
 
 ---
 
-🔧 **Circular Queue Code (in C)**
+## 🔧 Circular Queue Code (in C)
 
-**Enqueue:**
+### ➕ Enqueue
 
 ```c
 void enqueue(int value) {
@@ -138,7 +145,7 @@ void enqueue(int value) {
 }
 ```
 
-**Dequeue:**
+### ➖ Dequeue
 
 ```c
 void dequeue() {
@@ -157,7 +164,7 @@ void dequeue() {
 
 ---
 
-💪 **Advantages of Circular Queue**
+## 💪 Advantages of Circular Queue
 
 * ♻️ **Efficient Memory Use:** No wasted space.
 * ⚡ **Constant Time Operations:** O(1) enqueue and dequeue.
@@ -165,4 +172,5 @@ void dequeue() {
 
 ---
 
-⏭️ Next: **Lesson 14 – Deque & Priority Queue**
+## ⏭️ Next: **Lesson 14 – Deque & Priority Queue**
+
