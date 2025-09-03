@@ -167,4 +167,11 @@ Perform simulation using appropriate VHDL tools.
 
 > 🎓 A visual breakdown of key digital concepts discussed in this guide — ideal for quick revisions or first-time understanding.
 
+
+⭐ *Star this repository if it helped you learn!*
+📬 *Pull requests welcome for improvements or notes on future chapters!*
+
+
 > ⚠️ Note: Practice problems and circuit design exercises are essential to reinforce theoretical understanding.
+
+
