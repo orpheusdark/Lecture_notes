@@ -256,11 +256,6 @@ This chapter covers:
 
 
 
----
-
-⭐ *Star this repository if it helped you learn!*
-📬 *Pull requests welcome for improvements or notes on future chapters!*
-
 
 ---
 
