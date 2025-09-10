@@ -3,14 +3,6 @@
 
 # 📘 Lesson 2: Primitive vs Non-Primitive Data Structures
 
-## 🎯 Objectives:
-
-* Understand the two main categories of data types: **Primitive** and **Non-Primitive**
-* Explore examples in **Python** and **C**
-* Learn how data is stored and used in both types
-
----
-
 ## 🧩 What are Primitive Data Structures?
 
 Primitive data structures are the most **basic data types** directly supported by a programming language. They are the **building blocks** for all other structures.
@@ -172,4 +164,5 @@ int main() {
 **Lesson 3**: 📊 **Arrays and Memory Representation** (with Python lists and C arrays)
 
 ---
+
 
