@@ -3,17 +3,6 @@
 
 # 📘 Lesson 7: Stack – Definition & Operations (Array Representation)
 
----
-
-## 🎯 Objectives
-
-* 🔄 Understand the concept of a **Stack** and the **LIFO** (Last-In, First-Out) principle
-* 🧮 Learn to implement stack operations using an **array**
-* 🚨 Handle **Stack Overflow** and **Underflow** conditions
-* 💻 Implement a **stack in Python and C**
-
----
-
 ## 🔁 What is a Stack?
 
 A **Stack** is a **linear data structure** that operates on **LIFO**:
@@ -224,4 +213,5 @@ int main() {
 📘 **Lesson 8: Stack using Dynamic Arrays**
 
 ---
+
 
