@@ -1,6 +1,3 @@
-
----
-
 # 📘 Lesson 7: Stack – Definition & Operations (Array Representation)
 
 ## 🔁 What is a Stack?
@@ -213,5 +210,6 @@ int main() {
 📘 **Lesson 8: Stack using Dynamic Arrays**
 
 ---
+
 
 
