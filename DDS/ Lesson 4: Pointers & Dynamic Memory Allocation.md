@@ -3,14 +3,6 @@
 
 # 📘 Lesson 4: Pointers & Dynamic Memory Allocation
 
-## 🎯 Objectives
-
-* 🧭 Understand what pointers are in C and how they work
-* 🧱 Learn the difference between static and dynamic memory allocation
-* ⚙️ Master `malloc()`, `calloc()`, `realloc()`, and `free()` in C
-* 🤖 Contrast C's manual memory management with Python's automatic system
-
----
 
 ## 📚 What are Pointers?
 
@@ -176,5 +168,6 @@ It deallocates heap memory, making it reusable and preventing memory leaks.
 📘 **Lesson 5 – Stack: Concepts and Operations**
 
 ---
+
 
 
