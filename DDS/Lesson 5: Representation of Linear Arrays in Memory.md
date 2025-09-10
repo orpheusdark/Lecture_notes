@@ -3,14 +3,6 @@
 
 # 📘 Lesson 5: Representation of Linear Arrays in Memory
 
-## 🎯 Objectives
-
-* 🧠 Understand how linear arrays are stored in memory
-* 🧩 Learn the concept of contiguous memory allocation
-* 💻 Explore memory layout for arrays in C and C++
-* 🐍 Contrast C's memory model with Python's
-
----
 
 ## 📚 What is a Linear Array?
 
@@ -174,5 +166,6 @@ Use `array` module for memory-efficient storage.
 📘 **Lesson 6 – Algorithm Performance Analysis: Time & Space Complexity**
 
 ---
+
 
 
