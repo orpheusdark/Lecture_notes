@@ -1,18 +1,4 @@
-
----
-
 # 📘 Lesson 8: Stack Using Dynamic Arrays
-
----
-
-## 🎯 Objectives
-
-* 🚀 Implement a stack using dynamically allocated memory
-* 🧠 Understand how to resize a stack at runtime to avoid overflow
-* ⚖️ Compare dynamic stacks vs static (array-based) stacks
-* 🧑‍💻 Practice implementation in **Python** and **C**
-
----
 
 ## 💡 Why Use Dynamic Arrays for Stacks?
 
@@ -208,4 +194,5 @@ int main() {
 ➡️ Polish Notation, Infix to Postfix, and more...
 
 ---
+
 
