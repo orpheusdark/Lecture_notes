@@ -1,17 +1,5 @@
-
-
 # 📘 Lesson 14: **Deque & Priority Queue**
 
-
-
-## 🎯 Objectives
-
-* ✅ Understand the **Deque (Double-Ended Queue)** and its operations.
-* ✅ Learn about the **Priority Queue** and how it differs from a standard queue.
-* ✅ Explore **types, implementations, and real-world use cases**.
-* ✅ Analyze **common problems** and their solutions.
-
----
 
 ## ↔️ Deque (Double-Ended Queue)
 
