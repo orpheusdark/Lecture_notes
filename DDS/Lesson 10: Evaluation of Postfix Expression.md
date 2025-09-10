@@ -1,18 +1,4 @@
-
----
-
 # 📘 Lesson 10: Evaluation of Postfix Expression
-
----
-
-## 🎯 Objectives
-
-* 🧠 Evaluate **Postfix (Reverse Polish)** expressions using a stack
-* 🧮 Understand the step-by-step **evaluation algorithm**
-* 💻 Implement in both **Python** and **C**
-* 🌍 Discover how this ties into real-world compilers and calculators
-
----
 
 ## 🧠 What is a Postfix Expression?
 
@@ -214,5 +200,6 @@ int main() {
 → Dive into **Factorial**, **GCD**, **Fibonacci**, and the legendary **Tower of Hanoi**.
 
 ---
+
 
 
