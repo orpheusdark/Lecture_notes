@@ -1,16 +1,6 @@
 # 📘 Lesson 12: **Recursion – The Tower of Hanoi**
 
 
-## 🎯 Objectives
-
-* 🗼 Understand the classic **Tower of Hanoi** puzzle and its rules.
-* 🔁 Recognize why the problem has a **naturally recursive structure**.
-* 🧠 Learn and analyze the **recursive strategy** to solve the puzzle.
-* 📊 Calculate the number of **moves required** for `n` disks.
-* 💻 Implement the Tower of Hanoi solution in **C, C++, Python, and Java**.
-
----
-
 ## 🗼 What is the Tower of Hanoi?
 
 The **Tower of Hanoi** is a mathematical puzzle consisting of **three rods** and a number of **disks of different sizes**.
