@@ -1,17 +1,6 @@
 # 📘 Lesson 13: **Queue**
 
 
-
-## 🎯 Objectives
-
-* ✅ Understand the **Queue** data structure and its **FIFO (First-In, First-Out)** principle.
-* ✅ Learn the **array representation** of a simple **linear queue**.
-* ✅ Implement core **queue operations**: Enqueue, Dequeue, and Peek.
-* ✅ Analyze limitations of a **Linear Queue** and recognize the need for a **Circular Queue**.
-* ✅ Implement a **Circular Queue** to efficiently manage memory.
-
----
-
 ## 🚶‍♂️ What is a Queue?
 
 A **Queue** is a fundamental linear data structure that follows the **FIFO** principle:
