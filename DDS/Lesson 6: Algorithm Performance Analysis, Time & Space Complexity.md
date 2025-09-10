@@ -1,20 +1,5 @@
 
-
----
-
 # 📘 Lesson 6: Algorithm Performance Analysis — Time & Space Complexity
-
----
-
-## 🎯 Objectives:
-
-* 📏 Understand what algorithm performance means and why it matters
-* 🕒 Learn how to measure **Time Complexity**
-* 💾 Learn how to measure **Space Complexity**
-* 🧠 Understand **Big O notation** and complexity classes
-* 🎭 Analyze **Best**, **Worst**, and **Average Case** scenarios
-
----
 
 ## 📚 What is Algorithm Performance?
 
@@ -182,4 +167,5 @@ int main() {
 📘 **Lesson 7**: Stack — Definition, Operations & Array Representation
 
 ---
+
 
