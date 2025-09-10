@@ -1,19 +1,4 @@
-
----
-
 # 📘 Lesson 9: Stack Applications – Polish Notation & Infix to Postfix
-
----
-
-## 🎯 Objectives
-
-* 📚 Understand **Polish Notation**: Infix, Prefix, and Postfix
-* 💡 Learn **why Postfix is ideal** for computer evaluation
-* 🧮 Master the **Infix to Postfix conversion algorithm**
-* 🧱 Use a **stack** to manage operator precedence and parentheses
-* 💻 Implement in both **Python** and **C**
-
----
 
 ## 📌 What is Polish Notation?
 
@@ -232,4 +217,5 @@ int main() {
 👉 Dive deeper into how postfix expressions are computed using a stack at runtime.
 
 ---
+
 
