@@ -3,15 +3,6 @@
 
 # 📘 Lesson 3: Arrays, Structures, Unions, and Self-Referential Structures
 
-## 🎯 Objectives
-
-* Understand and differentiate between four fundamental C-style data structures: Arrays, Structures, Unions, and Self-Referential Structures.
-* Learn about Self-Referential Structures and their importance in building dynamic data structures.
-* Analyze the memory representation and common operations for each.
-* Implement basic array operations in Python and C++.
-
----
-
 ## 🔶 1. Arrays 🧮
 
 An array is a linear data structure that stores a collection of elements of the same data type in **contiguous memory** locations.
@@ -205,4 +196,5 @@ head->next = NULL;
 * **Self-Referential Structures**: Linked Lists, Trees, Graphs
 
 ---
+
 
