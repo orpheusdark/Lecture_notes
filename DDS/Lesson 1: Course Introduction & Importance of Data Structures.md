@@ -1,14 +1,6 @@
 
 # 📘 Lesson 1: Course Introduction & Importance of Data Structures
 
-## 🎯 Objectives
-
-- Understand what data structures are and their fundamental role in computer science.
-- Learn why choosing the right data structure is crucial for efficient programming.
-- See how to implement basic data structure operations (creation, insertion, search, traversal) in **Python**, **C**, **Java**, and **C++**.
-
----
-
 ## 📚 What is a Data Structure?
 
 A **data structure** is a specialized format for organizing, processing, retrieving, and storing data in a computer's memory. It’s not just about storing data—but arranging it for efficient access and modification.
@@ -300,3 +292,4 @@ Knowing the trade-offs between them strengthens your capacity as a **software ar
 ## ⏭️ Coming Up Next
 
 👉 **Lesson 2: Primitive vs. Non-Primitive Data Structures** – with diagrams and real-world examples!
+
