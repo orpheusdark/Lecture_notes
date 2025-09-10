@@ -212,7 +212,7 @@ Knowing the trade-offs between them strengthens your capacity as a **software ar
 ---
 
 
-# 🧠 Mind Maps for Quick Revision
+# 🧠 Quick Revision
 
 ## 1. ❓ What is a Data Structure?
 
@@ -292,4 +292,5 @@ Knowing the trade-offs between them strengthens your capacity as a **software ar
 ## ⏭️ Coming Up Next
 
 👉 **Lesson 2: Primitive vs. Non-Primitive Data Structures** – with diagrams and real-world examples!
+
 
