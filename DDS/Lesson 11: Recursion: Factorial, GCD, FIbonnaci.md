@@ -1,16 +1,6 @@
 # 📘 Lesson 11: **Recursion**
 
 
-## 🎯 Objectives
-
-* 🧩 Understand the fundamental concept of **Recursion**.
-* 🔍 Identify the **Base Case** and **Recursive Case** in a recursive function.
-* 🔁 Analyze classic recursive problems: **Factorial, GCD, Fibonacci Sequence**.
-* 💻 Implement recursive solutions in **Python, C, C++, and Java**.
-* ⚖️ Understand trade-offs between **recursive and iterative** solutions.
-
----
-
 ## 🧠 What is Recursion?
 
 **Recursion** is a programming technique where a function calls **itself** to solve smaller instances of the same problem.
