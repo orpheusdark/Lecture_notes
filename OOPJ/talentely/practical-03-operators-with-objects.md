@@ -1,9 +1,15 @@
+# Practical 3: Operators using Object Creation
 
-Practical:3 - Operators using object creation
+## Description
 
+Demonstrates the use of operators (arithmetic and bitwise) through object-oriented approach by creating an inner class.
+
+## Code
+
+```java
 public class Main {
 
-    // ✅ Static Inner Class
+    // Static Inner Class
     static class Operations {
         // Method to perform arithmetic and bitwise operations
         void performOperations() {
@@ -32,8 +38,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // ✅ Object creation of inner class
+        // Object creation of inner class
         Operations op = new Operations();
         op.performOperations();
     }
 }
+```

@@ -1,5 +1,12 @@
-Practical:5 - Conditional Statements
+# Practical 5: Conditional Statements
 
+## Description
+
+Demonstrates conditional statements (if-else) by solving quadratic equations and finding real solutions based on the discriminant value.
+
+## Code
+
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -28,3 +35,4 @@ public class Main {
         sc.close();
     }
 }
+```

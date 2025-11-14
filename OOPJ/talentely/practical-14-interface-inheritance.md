@@ -1,4 +1,12 @@
-Practical:15 - Demonstrate Inner Classes in Java
+# Practical 14: Interface Inheritance using extends
+
+## Description
+
+Demonstrates interface inheritance where one interface extends another, and a class implements the child interface.
+
+## Code
+
+```java
 public class Main {
 
     // Parent interface
@@ -30,3 +38,4 @@ public class Main {
         d.play();
     }
 }
+```

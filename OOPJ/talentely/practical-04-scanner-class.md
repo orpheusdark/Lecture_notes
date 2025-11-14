@@ -1,5 +1,12 @@
-Practical:4 - Scanner Class
+# Practical 4: Scanner Class
 
+## Description
+
+Demonstrates the use of the Scanner class to take user input for employee information including ID, name, department, and salary.
+
+## Code
+
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -22,3 +29,4 @@ public class Main {
         sc.close();
     }
 }
+```

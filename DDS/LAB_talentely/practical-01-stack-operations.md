@@ -1,6 +1,12 @@
+# Practical 1: Implement Stack Operations
 
-Practical: 1 - Implement Stack Operations
+## Description
 
+Implements a stack data structure with operations including push, pop, peek, traverse, and search using a vector in C++.
+
+## Code
+
+```cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -110,3 +116,4 @@ int main() {
 
     return 0;
 }
+```

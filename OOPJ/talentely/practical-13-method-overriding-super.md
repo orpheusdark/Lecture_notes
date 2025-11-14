@@ -1,5 +1,12 @@
-Practical-13 - Method Overriding and Use of super (with Inner Static Classes)
+# Practical 13: Method Overriding and Use of super
 
+## Description
+
+Demonstrates method overriding and the use of the super keyword to call parent class methods from child classes.
+
+## Code
+
+```java
 public class Main {
 
     // Parent class as inner static class
@@ -23,3 +30,4 @@ public class Main {
         d.sound();
     }
 }
+```

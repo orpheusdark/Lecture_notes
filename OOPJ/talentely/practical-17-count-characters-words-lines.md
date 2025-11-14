@@ -1,6 +1,12 @@
+# Practical 17: Count Characters, Words, and Lines in a Text
 
-Practical: 17 - Count Characters, Words, and Lines in a Text
+## Description
 
+Demonstrates counting characters, words, and lines in a text using a helper class for text statistics.
+
+## Code
+
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -47,3 +53,4 @@ public class Main {
         System.out.println("Number of lines: " + stats.countLines());
     }
 }
+```

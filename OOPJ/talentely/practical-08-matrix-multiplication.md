@@ -1,6 +1,14 @@
-Practical - 8: Multiply two given matrices
+# Practical 8: Matrix Multiplication
 
+## Description
+
+Multiplies two matrices if their dimensions are compatible (columns of first matrix equals rows of second matrix).
+
+## Code
+
+```java
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -61,3 +69,4 @@ public class Main {
         sc.close();
     }
 }
+```

@@ -1,6 +1,12 @@
+# Practical 19: Sum of Integers using StringTokenizer
 
-Practical: 19 - Sum of Integers using StringTokenizer
+## Description
 
+Demonstrates the use of StringTokenizer to parse and sum integers from a space-separated input string.
+
+## Code
+
+```java
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
@@ -36,3 +42,4 @@ public class Main {
         processor.processAndDisplay();
     }
 }
+```

@@ -1,5 +1,12 @@
-Practical: 20 - Single Try Block with Multiple Catch Blocks
+# Practical 20: Single Try Block with Multiple Catch Blocks
 
+## Description
+
+Demonstrates exception handling using a single try block with multiple catch blocks to handle different types of exceptions.
+
+## Code
+
+```java
 public class Main {
 
     // Inner static helper class to demonstrate exceptions
@@ -48,3 +55,4 @@ public class Main {
         demo.runDemo();
     }
 }
+```

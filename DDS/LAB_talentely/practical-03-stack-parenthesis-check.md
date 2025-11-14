@@ -1,6 +1,12 @@
+# Practical 3: Implement Postfix Evaluation using Stack
 
-Practical: 3 -  Implement Postfix evaluation using Stack.
+## Description
 
+Evaluates a postfix (Reverse Polish Notation) expression using a stack data structure in C++.
+
+## Code
+
+```cpp
 #include <iostream>
 #include <stack>
 #include <sstream>
@@ -44,3 +50,4 @@ int main() {
     cout << evaluatePostfix(postfix) << endl;
     return 0;
 }
+```

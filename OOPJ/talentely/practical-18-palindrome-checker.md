@@ -1,5 +1,12 @@
-Practical: 18 - Palindrome Checker
+# Practical 18: Palindrome Checker
 
+## Description
+
+Checks if a given string is a palindrome (reads the same forwards and backwards), ignoring spaces and case.
+
+## Code
+
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -41,3 +48,4 @@ public class Main {
         }
     }
 }
+```
