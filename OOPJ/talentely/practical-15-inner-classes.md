@@ -1,4 +1,12 @@
-Practical:15 - Demonstrate Inner Classes in Java
+# Practical 15: Inner Classes in Java
+
+## Description
+
+Demonstrates the use of inner classes in Java by creating interfaces and classes within the Main class.
+
+## Code
+
+```java
 public class Main {
 
     // Parent interface
@@ -30,3 +38,4 @@ public class Main {
         d.play();
     }
 }
+```
