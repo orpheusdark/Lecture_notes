@@ -1,4 +1,14 @@
-Practical - 10 : 
+# Practical 10: Method Overloading and Overriding
+
+## Description
+
+Demonstrates method and constructor overloading using a Calculator class with multiple constructors and overloaded add methods.
+
+## Code
+
+### Example 1: Simple Overloading Demo
+
+```java
 /*class Main1 {  
     private int a, b; 
  
@@ -30,9 +40,11 @@ public class Main {
         System.out.println("add(5.5, 4.5) = " + 10.0);
     }
 }
---------------------------------------------------------------------------------------------------------------
-Practical:10 - Over riding
+```
 
+### Example 2: Calculator with Inner Class
+
+```java
 public class Main {
 
     // Calculator as an inner class (or separate file without main)
@@ -66,3 +78,4 @@ public class Main {
         System.out.println("add(5.5, 4.5) = " + c1.add(5.5, 4.5));
     }
 }
+```
