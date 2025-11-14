@@ -1,5 +1,12 @@
-Practical: 25 - Dynamic Array Implementation Using ArrayList
+# Practical 25: Dynamic Array Implementation Using ArrayList
 
+## Description
+
+Demonstrates the implementation of a dynamic array using ArrayList to store and display integers.
+
+## Code
+
+```java
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -39,3 +46,4 @@ public class Main {
         sc.close();
     }
 }
+```
