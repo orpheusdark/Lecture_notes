@@ -1,8 +1,17 @@
-Practical:2 - Operators
+# Practical 2: Operators
 
+## Description
+
+Demonstrates various operators in Java including:
+- Arithmetic operators (addition, subtraction, multiplication, division, modulus)
+- Bitwise operators (OR, AND, NOT, XOR, shift operations)
+
+## Code
+
+```java
 public class Main {
     public static void main(String[] args) {
-        
+        // Arithmetic operators
         int a = 20;
         int b = 10;
 
@@ -12,7 +21,7 @@ public class Main {
         System.out.println("Division: " + (a / b));
         System.out.println("Remainder: " + (a % b));
 
-   
+        // Bitwise operators
         int x = 12; 
         int y = 6;  
 
@@ -25,3 +34,4 @@ public class Main {
         System.out.println("Bitwise Left Shift: " + (x << 2));
     }
 }
+```

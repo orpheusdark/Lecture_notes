@@ -1,4 +1,12 @@
-Practical: 6 - Practical: 6 - Nth Term of Fibonacci Series (Recursion & Iteration)
+# Practical 6: Nth Term of Fibonacci Series (Recursion & Iteration)
+
+## Description
+
+Demonstrates finding the Nth term of the Fibonacci series using both recursive and iterative approaches.
+
+## Code
+
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -41,3 +49,4 @@ public class Main {
         sc.close();
     }
 }
+```
