@@ -1,12 +1,19 @@
+# Practical 21: Multiple Try Blocks with Multiple Catch Blocks and Finally
 
-Practical: 21 - Multiple Try Blocks with Multiple Catch Blocks and Finally
+## Description
 
-/*How Students Should Use It
-Open the try blocks.
-Uncomment lines to generate exceptions and observe which catch block executes.
-Notice that the finally block always executes regardless of exception.
-Modify values to see normal execution without exceptions.*/
+Demonstrates exception handling with multiple try-catch-finally blocks, showing that finally blocks always execute regardless of whether an exception occurs.
 
+## Instructions for Students
+
+- Open the try blocks
+- Uncomment lines to generate exceptions and observe which catch block executes
+- Notice that the finally block always executes regardless of exception
+- Modify values to see normal execution without exceptions
+
+## Code
+
+```java
 public class Main {
 
     // Inner static helper class to demonstrate multiple try-catch-finally
@@ -67,3 +74,4 @@ public class Main {
         demo.runDemo();
     }
 }
+```

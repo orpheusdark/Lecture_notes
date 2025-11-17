@@ -1,5 +1,12 @@
-Practical: 26 - ArrayList Operations: Add, Search, and Remove
+# Practical 26: ArrayList Operations - Add, Search, and Remove
 
+## Description
+
+Demonstrates essential ArrayList operations including adding elements, searching for values, and removing elements.
+
+## Code
+
+```java
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -60,3 +67,4 @@ public class Main {
         sc.close();
     }
 }
+```

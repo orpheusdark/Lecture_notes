@@ -1,5 +1,12 @@
-Practical: 9 - Sorting the names in ascending order.
+# Practical 9: Sorting Names in Ascending Order
 
+## Description
+
+Demonstrates sorting an array of names in ascending (alphabetical) order using the Arrays.sort() method.
+
+## Code
+
+```java
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -29,3 +36,4 @@ public class Main {
         sc.close();
     }
 }
+```

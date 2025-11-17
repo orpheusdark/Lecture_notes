@@ -1,5 +1,12 @@
-Practical-12 - overriding and super keyword.
+# Practical 12: Method Overriding and super Keyword
 
+## Description
+
+Demonstrates method overriding by implementing multiple interfaces (Animal and Pet) in a Dog class.
+
+## Code
+
+```java
 public class Main {
 
     // Interface Animal
@@ -31,3 +38,4 @@ public class Main {
         d.play();
     }
 }
+```

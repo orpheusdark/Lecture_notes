@@ -1,9 +1,15 @@
+# Practical 7: Prime Numbers up to N
 
-Practical: 7 : prime numbers up to N
+## Description
 
+Finds and displays all prime numbers from 2 up to a given number N using a helper method to check primality.
+
+## Code
+
+```java
 import java.util.Scanner;
 
-public class Main  {
+public class Main {
 
     // Method to check if a number is prime
     public static boolean isPrime(int number) {
@@ -33,3 +39,4 @@ public class Main  {
         scanner.close();
     }
 }
+```

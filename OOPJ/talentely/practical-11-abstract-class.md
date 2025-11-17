@@ -1,5 +1,12 @@
-Practical-11 - Abstract class
+# Practical 11: Abstract Class
 
+## Description
+
+Demonstrates the use of abstract classes by creating a Shape abstract class with Rectangle and Circle as concrete implementations.
+
+## Code
+
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -74,3 +81,4 @@ public class Main {
         sc.close();
     }
 }
+```
