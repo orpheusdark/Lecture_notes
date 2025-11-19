@@ -1,5 +1,5 @@
 Practical: 8 - Implement binary search and interpolation search.
-
+```
 #include <iostream>
 using namespace std;
 
@@ -53,3 +53,4 @@ int main() {
 
     return 0;
 }
+```

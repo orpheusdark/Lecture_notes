@@ -1,5 +1,5 @@
 Practical: 5 - Design Queue with Enqueue, Dequeue, Traverse, and Search
-
+```
 #include <iostream>
 using namespace std;
 
@@ -84,3 +84,4 @@ int main() {
     }
     return 0;
 }
+```

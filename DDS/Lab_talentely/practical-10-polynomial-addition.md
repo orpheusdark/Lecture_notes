@@ -1,6 +1,6 @@
 
 practical: 10 -  Implement Binary search Tree and its operations ( creation, insertion, deletion).
-
+```
 #include <iostream>
 using namespace std;
 
@@ -90,3 +90,4 @@ int main() {
 
     return 0;
 }
+```
