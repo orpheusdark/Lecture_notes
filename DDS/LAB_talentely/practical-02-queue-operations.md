@@ -1,5 +1,5 @@
 Practical: 2 - Implement Infix to Postfix Expression Conversion using Stack
-
+```
 #include <iostream>
 #include <stack>
 #include <string>
@@ -71,3 +71,4 @@ int main() {
 
     return 0;
 }
+```
