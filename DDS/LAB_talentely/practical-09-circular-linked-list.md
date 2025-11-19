@@ -1,5 +1,5 @@
 practical: 9 - Implement Bubble sort, selection sort, Insertion sort, quick sort ,merge sort.
-
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -118,3 +118,4 @@ int main() {
     cout << endl;
     return 0;
 }
+```
