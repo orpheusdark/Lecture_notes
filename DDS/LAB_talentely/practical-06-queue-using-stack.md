@@ -1,6 +1,6 @@
 
 Practical: 6 - Design Singly Linked List with Insertion, Deletion, Traversal, Search, and Reverse
-
+```
 #include <iostream>
 using namespace std;
 
@@ -155,3 +155,4 @@ int main() {
     }
     return 0;
 }
+```
