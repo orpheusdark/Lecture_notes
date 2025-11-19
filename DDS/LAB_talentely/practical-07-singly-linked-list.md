@@ -1,6 +1,6 @@
 
 Practical: 7 - Design Doubly Linked List with Insertion, Deletion, Traversal, Search, and Reverse
-
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -164,3 +164,4 @@ int main() {
     }
     return 0;
 }
+```
